@@ -177,6 +177,6 @@ gradle-app.setting
 *.hprof
 
 # Custom
-application-secret.yaml
+application-secret.yml
 ggjuk_dev_mv.db
 ggjuk_dev_trace.db
