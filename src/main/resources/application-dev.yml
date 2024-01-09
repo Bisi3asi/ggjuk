@@ -1,0 +1,16 @@
+server:
+  port: 8100
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:h2:./ggjuk_dev;MODE=MYSQL
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  output:
+    ansi:
+      enabled: always
+site:
+  name: ggjuk
+  url: "http://localhost:${server.port}"
