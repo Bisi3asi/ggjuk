@@ -1,0 +1,34 @@
+# <type>: <title> (50자 이내)
+
+# </title>
+
+# <content> (72자 이내, 한 줄당)
+
+# </content>
+
+# <footer>
+
+# </footer>
+# -----
+# [참고]  : Commit Type Rule
+#   feature : 새로운 기능 추가
+#   fix     : 버그 수정
+#   docs    : 문서 수정
+#   test    : 테스트 코드 추가
+#   refactor: 코드 리팩토링
+#   rename  : 파일 혹은 폴더 수정, 이동 작업 수행
+#   remove  : 파일 삭제 작업 수행
+#   comment : 주석 추가 또는 변경
+#   design  : CSS 등 사용자 UI 디자인 변경
+#   style   : 코드 의미에 영향을 주지 않는 변경사항
+#   chore   : 빌드 부분 혹은 패키지 매니저 수정사항
+#   init    : 프로젝트 초기 생성
+#
+# [참고]  : Footer Rule
+#   fixes   : 이슈 수정 중(미해결)
+#   Resolves: 이슈 해결
+#   Ref     : 참조할 이슈가 있을 때
+#   Related to: 해당 커밋에 관련된 이슈 번호(미해결)
+#
+# [참고]  : How to init gitMessage.txt
+#   $ git config --global commit.template .gitmessage.txt
